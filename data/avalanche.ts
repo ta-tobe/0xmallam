@@ -1,23 +1,25 @@
 import { IssuanceData } from './types'
 
 export async function getAvalancheData(): Promise<IssuanceData> {
-  const req = await fetch("https://www.stakingrewards.com/_next/data/HjhA-CoIXXHgxRyoYd19s/en/earn/avalanche/metrics.json?tab=metrics&slug=avalanche");
-  const { pageProps } = await req.json();
-
-  const stats: any = {};
-  pageProps.assetData.asset.networkStats.forEach((stat: any) => {
-    stats[stat.key] = stat.value;
+  const req = await fetch("https://api.avax.network/ext/P", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      id: 1,
+      jsonrpc: "2.0",
+      method: "platform.getCurrentValidators"
+    })
   });
 
-  if (!stats.active_validators) {
-    throw new Error('active_validators not found for avalanche');
-  }
+  const { result: { validators } } = await req.json() as { result: { validators: any[] }};
 
   return {
     id: 'avalanche',
     name: 'Avalanche',
     category: 'l1',
-    sevenDayMA: stats.active_validators,
-    oneDay: stats.active_validators,
+    sevenDayMA: validators.length,
+    oneDay: validators.length,
   };
 }
