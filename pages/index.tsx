@@ -20,24 +20,24 @@ export const Home: NextPage<HomeProps> = ({ data }) => {
   return (
     <div className="container">
       <Head>
-        <title>Stakers.info</title>
+        <title>0xMallam</title>
         <link rel="icon" href="/favicon.png" />
         <link
           href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap"
           rel="stylesheet"
         />
 
-        <meta property="og:title" content="Stakers.info" />
+        <meta property="og:title" content="0xMallam" />
         <meta property="og:image" content="https://stakers.info/api/screenshot" />
         <meta
           property="og:description"
-          content="What's securing your blockchain?"
+          content="How much are foreign currencies in ₦?"
         />
 
         <meta name="twitter:title" content="Stakers.info" />
         <meta
           name="twitter:description"
-          content="What's securing your blockchain?"
+          content="How much are foreign currencies in ₦?"
         />
         <meta
           name="twitter:image"
@@ -55,10 +55,10 @@ gtag('js', new Date());gtag('config', 'G-N4QYE453Z4');`
       </Head>
 
       <main>
-        <h1 className="title">Stakers.info</h1>
+        <h1 className="title">0xMallam</h1>
 
         <p className="description">
-          What's securing your blockchain?
+          How much are foreign currencies in ₦?
         </p>
 
         <p>
@@ -83,12 +83,15 @@ gtag('js', new Date());gtag('config', 'G-N4QYE453Z4');`
       <footer>
         <div>
           Created by{' '}
-          <a href="https://twitter.com/dmihal" target="twitter">
-            David Mihal
+          <a href="https://twitter.com/tc_madt" target="twitter">
+            Tobe
           </a>
         </div>
         <div>
           Design help from{' '}
+          <a href="https://twitter.com/dmihal" target="twitter">
+            David Mihal
+          </a>
           <a href="https://twitter.com/hey_heey_heeey" target="twitter">
             @heyheeyheeey
           </a>
