@@ -199,14 +199,18 @@ export const getStaticProps: GetStaticProps = async () => {
   };
 
   const data2 = await Promise.all([
+//     getUsdData().catch(handleFailure),
+//     getGbpData().catch(handleFailure),
+//     getCadData().catch(handleFailure),
+
     getAvalancheData().catch(handleFailure),
-    getCardanoData().catch(handleFailure),
-    getCosmosData().catch(handleFailure),
-    getEth2Data().catch(handleFailure),
-    getNanoData().catch(handleFailure),
-    getPolkadotData().catch(handleFailure),
-    getSolanaData().catch(handleFailure),
-    getTezosData().catch(handleFailure),
+//     getCardanoData().catch(handleFailure),
+//     getCosmosData().catch(handleFailure),
+//     getEth2Data().catch(handleFailure),
+//     getNanoData().catch(handleFailure),
+//     getPolkadotData().catch(handleFailure),
+//     getSolanaData().catch(handleFailure),
+//     getTezosData().catch(handleFailure),
   ]);
 
   const data = data2.filter((val: any) => !!val);
