@@ -5,6 +5,4 @@ export interface IssuanceData {
   name?: string
   category: Category
   sevenDayMA: number
-//   bid: number
-//   ask: number
 }
