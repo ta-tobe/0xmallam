@@ -30,7 +30,7 @@ const List: React.FC<ListProps> = ({ data }) => {
         >
           <div className="name">{protocol.name}</div>
           <div className="amount">
-            {protocol.sevenDayMA.toLocaleString('en-US')}
+            {protocol.rate.toLocaleString('en-US')}
           </div>
         </div>
       ))}
