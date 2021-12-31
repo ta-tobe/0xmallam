@@ -19,6 +19,6 @@ export async function getUsdData(): Promise<IssuanceData> {
     id: 'usd',
     name: 'United States Dollars (USD)',
     category: 'stable',
-    sevenDayMA: round(price,1),
+    rate: round(price,1),
   };
 }
