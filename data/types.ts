@@ -1,4 +1,4 @@
-export type Category = 'l2' | 'app' | 'stable'
+export type Category = 'l1' | 'app' | 'stable'
 
 export interface IssuanceData {
   id: string
