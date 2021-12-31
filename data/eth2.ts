@@ -9,10 +9,10 @@ export async function getEth2Data(): Promise<IssuanceData> {
   const { data } = await req.json();
 
   return {
-    id: 'eth',
-    name: 'Ethereum 2.0',
+    id: 'usd',
+    name: 'United States Dollars (USD)',
     category: 'l1',
     sevenDayMA: data.validatorscount,
-    oneDay: data.validatorscount,
+    oneDay: 565,
   };
 }
