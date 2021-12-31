@@ -1,10 +1,10 @@
 import React from 'react'
 import Head from 'next/head'
 import { NextPage, GetStaticProps } from 'next'
-import { getAvalancheData } from 'data/avalanche'
+// import { getAvalancheData } from 'data/avalanche'
 // import { getCardanoData } from 'data/cardano'
 // import { getCosmosData } from 'data/cosmos'
-// import { getEth2Data } from 'data/eth2'
+import { getEth2Data } from 'data/eth2'
 // import { getNanoData } from 'data/nano'
 // import { getPolkadotData } from 'data/polkadot'
 // import { getSolanaData } from 'data/solana'
@@ -203,10 +203,10 @@ export const getStaticProps: GetStaticProps = async () => {
 //     getGbpData().catch(handleFailure),
 //     getCadData().catch(handleFailure),
 
-    getAvalancheData().catch(handleFailure),
+//     getAvalancheData().catch(handleFailure),
 //     getCardanoData().catch(handleFailure),
 //     getCosmosData().catch(handleFailure),
-//     getEth2Data().catch(handleFailure),
+    getEth2Data().catch(handleFailure),
 //     getNanoData().catch(handleFailure),
 //     getPolkadotData().catch(handleFailure),
 //     getSolanaData().catch(handleFailure),
