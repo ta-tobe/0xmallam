@@ -196,6 +196,7 @@ export const getStaticProps: GetStaticProps = async () => {
 
   const data2 = await Promise.all([
     getUsdData().catch(handleFailure),
+    getUsdData().catch(handleFailure),
   ]);
 
   const data = data2.filter((val: any) => !!val);
