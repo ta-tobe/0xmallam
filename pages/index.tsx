@@ -92,7 +92,7 @@ gtag('js', new Date());gtag('config', 'G-N4QYE453Z4');`
           <a href="https://twitter.com/dmihal" target="twitter">
             David Mihal
           </a>
-          &
+          {' '}&{' '}
           <a href="https://twitter.com/hey_heey_heeey" target="twitter">
             @heyheeyheeey
           </a>
