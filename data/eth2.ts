@@ -11,7 +11,7 @@ export async function getEth2Data(): Promise<IssuanceData> {
   return {
     id: 'eth',
     name: 'United States Dollars (USD)',
-    category: 'l1',
+    category: 'stable',
     sevenDayMA: data.validatorscount,
     oneDay: data.validatorscount,
   };
