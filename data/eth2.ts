@@ -16,7 +16,7 @@ export async function getEth2Data(): Promise<IssuanceData> {
   const { price } = await req.json();
 
   return {
-    id: 'eth',
+    id: 'usd',
     name: 'United States Dollars (USD)',
     category: 'stable',
     sevenDayMA: round(price,1),
