@@ -6,7 +6,7 @@ export async function getEth2Data(): Promise<IssuanceData> {
       "content-type": "application/json",
     },
   });
-  const { data } = await req.json();
+//   const { data } = await req.json();
 
   return {
     id: 'eth',
