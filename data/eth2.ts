@@ -13,7 +13,7 @@ export async function getEth2Data(): Promise<IssuanceData> {
       "content-type": "application/json",
     },
   });
-  const { price } = await req.json();
+  const { price } = await req2.json();
 
   return {
     id: 'eth',
