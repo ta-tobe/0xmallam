@@ -6,8 +6,7 @@ interface ListProps {
   data: IssuanceData[]
 }
 
-// const sortByDaily = (a: FeeData, b: FeeData) => b.oneDay - a.oneDay
-const sortByWeekly = (a: IssuanceData, b: IssuanceData) => b.sevenDayMA - a.sevenDayMA
+const sortByWeekly = (a: IssuanceData, b: IssuanceData) => b.rate - a.rate
 
 const List: React.FC<ListProps> = ({ data }) => {
   const sortedData = data.sort(sortByWeekly)
