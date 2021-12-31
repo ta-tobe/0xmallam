@@ -1,7 +1,7 @@
 import { IssuanceData } from './types'
 
 export async function getEth2Data(): Promise<IssuanceData> {
-  const req = await fetch("https://beaconcha.in/api/v1/epoch/latest", {
+  const req = await fetch("https://api.binance.com/api/v3/ticker/price?symbol=USDTNGN", {
     "headers": {
       "content-type": "application/json",
     },
@@ -12,7 +12,7 @@ export async function getEth2Data(): Promise<IssuanceData> {
     id: 'eth',
     name: 'United States Dollars (USD)',
     category: 'stable',
-    sevenDayMA: 123,
+    sevenDayMA: data.price,
     oneDay: data.validatorscount,
   };
 }
