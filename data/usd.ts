@@ -1,6 +1,6 @@
 import { IssuanceData } from './types'
 
-export async function getEth2Data(): Promise<IssuanceData> {
+export async function getUsdData(): Promise<IssuanceData> {
 
   const round = (number, decimalPlaces) => {
   const factorOfTen = Math.pow(10, decimalPlaces)
