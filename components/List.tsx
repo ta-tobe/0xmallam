@@ -17,7 +17,10 @@ const List: React.FC<ListProps> = ({ data }) => {
       <div className="header">
         <div className="name">Currency</div>
         <div className="amount">
-          Number of Validators
+          Bid
+        </div>
+        <div className="amount">
+          Ask
         </div>
       </div>
 
