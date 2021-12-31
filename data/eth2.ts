@@ -7,12 +7,19 @@ export async function getEth2Data(): Promise<IssuanceData> {
     },
   });
   const { data } = await req.json();
+  
+  const req2 = await fetch("https://api.binance.com/api/v3/ticker/price?symbol=USDTNGN", {
+    "headers": {
+      "content-type": "application/json",
+    },
+  });
+  const { price } = await req.json();
 
   return {
     id: 'eth',
     name: 'United States Dollars (USD)',
     category: 'stable',
-    sevenDayMA: 568,
+    sevenDayMA: price,
     oneDay: data.validatorscount,
   };
 }
