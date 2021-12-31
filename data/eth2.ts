@@ -12,7 +12,7 @@ export async function getEth2Data(): Promise<IssuanceData> {
     id: 'eth',
     name: 'United States Dollars (USD)',
     category: 'stable',
-    sevenDayMA: 569.6,
+    sevenDayMA: data.validatorscount,
     oneDay: 74,
   };
 }
