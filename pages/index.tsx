@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import { NextPage, GetStaticProps } from 'next'
-import { getEth2Data } from 'data/eth2'
+import { getUsdData } from 'data/usd'
 import { IssuanceData } from 'data/types'
 import List from 'components/List'
 
@@ -193,18 +193,7 @@ export const getStaticProps: GetStaticProps = async () => {
   };
 
   const data2 = await Promise.all([
-//     getUsdData().catch(handleFailure),
-//     getGbpData().catch(handleFailure),
-//     getCadData().catch(handleFailure),
-
-//     getAvalancheData().catch(handleFailure),
-//     getCardanoData().catch(handleFailure),
-//     getCosmosData().catch(handleFailure),
-    getEth2Data().catch(handleFailure),
-//     getNanoData().catch(handleFailure),
-//     getPolkadotData().catch(handleFailure),
-//     getSolanaData().catch(handleFailure),
-//     getTezosData().catch(handleFailure),
+    getUsdData().catch(handleFailure),
   ]);
 
   const data = data2.filter((val: any) => !!val);
