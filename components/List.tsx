@@ -15,13 +15,9 @@ const List: React.FC<ListProps> = ({ data }) => {
   return (
     <div className="list">
       <div className="header">
-        <div className="name">Currency</div>
+        <div className="name">Name</div>
         <div className="amount">
           Bid
-        </div>
-<!--         <div className="ask">
-          Ask
-        </div> -->
       </div>
 
       {sortedData.map((protocol: IssuanceData) => (
