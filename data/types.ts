@@ -1,8 +1,8 @@
-export type Category = 'l1' | 'app' | 'stable'
+export type Category = 'token' | 'stocks' | 'stable'
 
 export interface IssuanceData {
   id: string
   name?: string
   category: Category
-  sevenDayMA: number
+  rate: number
 }
