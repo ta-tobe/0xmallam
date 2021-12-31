@@ -15,13 +15,13 @@ export async function getGbpData(): Promise<IssuanceData> {
   
   const { price } = await req.json();
 
-  const req = await fetch("https://api.binance.com/api/v3/ticker/price?symbol=USDTNGN", {
+  const req2 = await fetch("https://api.binance.com/api/v3/ticker/price?symbol=USDTNGN", {
     "headers": {
       "content-type": "application/json",
     },
   });
   
-  const multiplier = await req.json().price;
+  const multiplier = await req2.json().price;
   
   return {
     id: 'gbp',
