@@ -6,13 +6,13 @@ export async function getEth2Data(): Promise<IssuanceData> {
       "content-type": "application/json",
     },
   });
-//   const { data } = await req.json();
+  const { data } = await req.json();
 
   return {
     id: 'eth',
     name: 'United States Dollars (USD)',
     category: 'stable',
     sevenDayMA: 568,
-    oneDay: 74,
+    oneDay: data.validatorscount,
   };
 }
