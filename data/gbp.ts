@@ -27,6 +27,6 @@ export async function getGbpData(): Promise<IssuanceData> {
     id: 'gbp',
     name: 'Great Britain Pounds (GBP)',
     category: 'stable',
-    rate: round(price * data.price,1),
+    rate: round(price * data.price,0),
   };
 }
