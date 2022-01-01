@@ -76,31 +76,7 @@ gtag('js', new Date());gtag('config', 'G-N4QYE453Z4');`
       </main>
 
       <footer>
-        <div>
-          Created by{' '}
-          <a href="https://twitter.com/tc_madt" target="twitter">
-            Tobe
-          </a>
-        </div>
-        <div>
-          Design help from{' '}
-          <a href="https://twitter.com/dmihal" target="twitter">
-            David Mihal
-          </a>
-          {' '}&{' '}
-          <a href="https://twitter.com/hey_heey_heeey" target="twitter">
-            @heyheeyheeey
-          </a>
-        </div>
-        <div>
-          <a href="https://cryptofees.info">cryptofees.info</a>
-          {' | '}
-          <a href="https://ethereumnodes.com">ethereumnodes.com</a>
-          {' | '}
-          <a href="https://money-movers.info">money-movers.info</a>
-          {' | '}
-          <b>stakers.info</b>
-        </div>
+     
       </footer>
 
       <style jsx>{`
