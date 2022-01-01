@@ -3,6 +3,7 @@ import Head from 'next/head'
 import { NextPage, GetStaticProps } from 'next'
 import { getUsdData } from 'data/usd'
 import { getGbpData } from 'data/gbp'
+import { getEurData } from 'data/eur'
 
 import { IssuanceData } from 'data/types'
 import List from 'components/List'
@@ -173,6 +174,7 @@ export const getStaticProps: GetStaticProps = async () => {
   const data2 = await Promise.all([
     getUsdData().catch(handleFailure),
     getGbpData().catch(handleFailure),
+    getEurData().catch(handleFailure),
   ]);
 
   const data = data2.filter((val: any) => !!val);
