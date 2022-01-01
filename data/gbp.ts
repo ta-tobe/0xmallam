@@ -21,12 +21,12 @@ export async function getGbpData(): Promise<IssuanceData> {
     },
   });
   
-  const multiplie = await req2.json().price;
+  const data = await req2.json();
   
   return {
     id: 'gbp',
     name: 'Great Britain Pounds (GBP)',
     category: 'stable',
-    rate: round(price*multiplie,1),
+    rate: round(price * data.price,1),
   };
 }
