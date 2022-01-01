@@ -27,13 +27,13 @@ export const Home: NextPage<HomeProps> = ({ data }) => {
         <meta property="og:image" content="https://stakers.info/api/screenshot" />
         <meta
           property="og:description"
-          content="How much are foreign currencies in Naira?"
+          content="How much are foreign currencies in ₦?"
         />
 
         <meta name="twitter:title" content="Stakers.info" />
         <meta
           name="twitter:description"
-          content="How much are foreign currencies in Naira?"
+          content="How much are foreign currencies in ₦?"
         />
         <meta
           name="twitter:image"
@@ -54,7 +54,7 @@ gtag('js', new Date());gtag('config', 'G-N4QYE453Z4');`
         <h1 className="title">0xMallam</h1>
 
         <p className="description">
-          How much are foreign currencies in ₦?
+          How much are foreign currencies in Naira?
         </p>
 
         <p>
