@@ -27,13 +27,13 @@ export const Home: NextPage<HomeProps> = ({ data }) => {
         <meta property="og:image" content="https://stakers.info/api/screenshot" />
         <meta
           property="og:description"
-          content="How much are foreign currencies in ₦?"
+          content="How much are foreign currencies in Naira?"
         />
 
         <meta name="twitter:title" content="Stakers.info" />
         <meta
           name="twitter:description"
-          content="How much are foreign currencies in ₦?"
+          content="How much are foreign currencies in Naira?"
         />
         <meta
           name="twitter:image"
