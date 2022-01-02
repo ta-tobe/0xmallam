@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-import { NextPage, GetStaticProps } from 'next'
+// import { NextPage, GetStaticProps } from 'next'
 import { getUsdData } from 'data/usd'
 import { getGbpData } from 'data/gbp'
 import { getEurData } from 'data/eur'
