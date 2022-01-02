@@ -30,7 +30,7 @@ export const Home: NextPage<HomeProps> = ({ data }) => {
           content="How much are foreign currencies in ₦?"
         />
 
-        <meta name="twitter:title" content="Stakers.info" />
+        <meta name="twitter:title" content="0xmallam.info" />
         <meta
           name="twitter:description"
           content="How much are foreign currencies in ₦?"
