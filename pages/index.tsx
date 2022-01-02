@@ -7,7 +7,7 @@ import { getEurData } from 'data/eur'
 
 import { IssuanceData } from 'data/types'
 import List from 'components/List'
-import icons from './icons'
+import icons from './components/icons'
 
 
 interface HomeProps {
