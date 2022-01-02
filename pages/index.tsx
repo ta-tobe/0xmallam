@@ -35,10 +35,10 @@ export const Home: NextPage<HomeProps> = ({ data }) => {
           name="twitter:description"
           content="How much are foreign currencies in ₦?"
         />
-        <meta
+<!--         <meta
           name="twitter:image"
           content={`https://0xmallam.info/api/screenshot?${new Date().getDate()}`}
-        />
+        /> -->
         <meta name="twitter:card" content="summary_large_image" />
 
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-N4QYE453Z4" />
