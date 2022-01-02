@@ -7,6 +7,8 @@ import { getEurData } from 'data/eur'
 
 import { IssuanceData } from 'data/types'
 import List from 'components/List'
+import icons from './icons'
+
 
 interface HomeProps {
   data: IssuanceData[]
@@ -35,10 +37,13 @@ export const Home: NextPage<HomeProps> = ({ data }) => {
           name="twitter:description"
           content="How much are foreign currencies in ₦?"
         />
-<!--         <meta
+        <meta
           name="twitter:image"
-          content={`https://0xmallam.info/api/screenshot?${new Date().getDate()}`}
-        /> -->
+<!--           content={`https://0xmallam.info/api/screenshot?${new Date().getDate()}`} -->
+          content = {{
+            backgroundImage: icons[usd] ? `url('${icons[usd]}')` : undefined,
+          }}
+        />
         <meta name="twitter:card" content="summary_large_image" />
 
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-N4QYE453Z4" />
