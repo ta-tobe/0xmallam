@@ -1,6 +1,6 @@
-import { NextApiRequest, NextApiResponse } from 'next';
+// import { NextApiRequest, NextApiResponse } from 'next';
 
-const wait = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+// const wait = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
 // async function getScreenshot(): Promise<any> {
 //   const apiKeys = process.env.NEXT_APP_BROWSHOT!.split(',');
