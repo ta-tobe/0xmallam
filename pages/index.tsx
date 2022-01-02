@@ -36,11 +36,6 @@ export const Home: NextPage<HomeProps> = ({ data }) => {
           name="twitter:description"
           content="How much are foreign currencies in ₦?"
         />
-<!--         <meta
-          name="twitter:image"
-          content = "https://farm6.staticflickr.com/5510/14338202952_93595258ff_z.jpg"
-        />
-        <meta name="twitter:card" content="summary_large_image" /> -->
 
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-N4QYE453Z4" />
         <script
