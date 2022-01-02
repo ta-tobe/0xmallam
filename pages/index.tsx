@@ -24,7 +24,7 @@ export const Home: NextPage<HomeProps> = ({ data }) => {
         />
 
         <meta property="og:title" content="0xMallam" />
-        <meta property="og:image" content="https://stakers.info/api/screenshot" />
+        <meta property="og:image" content="https://0xmallam.info/api/screenshot" />
         <meta
           property="og:description"
           content="How much are foreign currencies in ₦?"
@@ -37,7 +37,7 @@ export const Home: NextPage<HomeProps> = ({ data }) => {
         />
         <meta
           name="twitter:image"
-          content={`https://stakers.info/api/screenshot?${new Date().getDate()}`}
+          content={`https://0xmallam.info/api/screenshot?${new Date().getDate()}`}
         />
         <meta name="twitter:card" content="summary_large_image" />
 
