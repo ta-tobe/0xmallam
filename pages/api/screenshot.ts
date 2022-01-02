@@ -3,11 +3,10 @@ import { NextApiRequest, NextApiResponse } from 'next';
 const wait = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
 async function getScreenshot(): Promise<any> {
-  const apiKeys = process.env.NEXT_APP_BROWSHOT!.split(',');
-  const key = apiKeys[new Date().getDate() % apiKeys.length];
+//   const apiKeys = process.env.NEXT_APP_BROWSHOT!.split(',');
+//   const key = apiKeys[new Date().getDate() % apiKeys.length];
 
   const request = await fetch(
-    'https://api.browshot.com/api/v1/screenshot/create?key=xL8caCr7L8ZMhu69ggfnaBHc&instance_id=12&url=www.0xmallam.info&size=page&hide_popups=0&dark=0'
 //     `https://api.browshot.com/api/v1/screenshot/create?url=https://0xmallam.info/&instance_id=12&size=screen&cache=${
 //       60 * 60 * 24
 //     }&key=${key}`
