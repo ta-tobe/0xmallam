@@ -30,4 +30,4 @@
 //   res.end();
 // };
 
-// export default handler;
+export default handler;
