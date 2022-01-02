@@ -25,7 +25,7 @@ const handler = async (_req: NextApiRequest, res: NextApiResponse) => {
   const screenshot = await getScreenshot();
 
   res.writeHead(302, {
-    Location: screenshot.screenshot_url,
+    Location: "https://farm6.staticflickr.com/5510/14338202952_93595258ff_z.jpg",
   });
   res.end();
 };
