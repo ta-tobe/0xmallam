@@ -39,7 +39,8 @@ export const Home: NextPage<HomeProps> = ({ data }) => {
         <meta
           name="twitter:image"
 <!--           content={`https://0xmallam.info/api/screenshot?${new Date().getDate()}`} -->
-          content = 'https://github.com/ta-tobe/0xmallam/blob/master/pages/0xmallam_ss.PNG'
+<!--           content = 'https://github.com/ta-tobe/0xmallam/blob/master/pages/0xmallam_ss.PNG' -->
+          content = "https://farm6.staticflickr.com/5510/14338202952_93595258ff_z.jpg"
         />
         <meta name="twitter:card" content="summary_large_image" />
 
