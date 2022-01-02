@@ -7,7 +7,6 @@ import { getEurData } from 'data/eur'
 
 import { IssuanceData } from 'data/types'
 import List from 'components/List'
-import icons from './components/icons'
 
 
 interface HomeProps {
@@ -40,9 +39,7 @@ export const Home: NextPage<HomeProps> = ({ data }) => {
         <meta
           name="twitter:image"
 <!--           content={`https://0xmallam.info/api/screenshot?${new Date().getDate()}`} -->
-          content = {{
-            backgroundImage: icons[usd] ? `url('${icons[usd]}')` : undefined,
-          }}
+          content = 'https://github.com/ta-tobe/0xmallam/blob/master/pages/0xmallam_ss.PNG'
         />
         <meta name="twitter:card" content="summary_large_image" />
 
