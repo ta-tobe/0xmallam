@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-// import { NextPage, GetStaticProps } from 'next'
+import { NextPage, GetStaticProps } from 'next'
 import { getUsdData } from 'data/usd'
 import { getGbpData } from 'data/gbp'
 import { getEurData } from 'data/eur'
@@ -36,11 +36,11 @@ export const Home: NextPage<HomeProps> = ({ data }) => {
           name="twitter:description"
           content="How much are foreign currencies in ₦?"
         />
-        <meta
+<!--         <meta
           name="twitter:image"
           content = "https://farm6.staticflickr.com/5510/14338202952_93595258ff_z.jpg"
         />
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:card" content="summary_large_image" /> -->
 
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-N4QYE453Z4" />
         <script
