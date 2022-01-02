@@ -31,12 +31,6 @@ export const Home: NextPage<HomeProps> = ({ data }) => {
           content="How much are foreign currencies in ₦?"
         />
 
-        <meta name="twitter:title" content="0xmallam.info" />
-        <meta
-          name="twitter:description"
-          content="How much are foreign currencies in ₦?"
-        />
-
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-N4QYE453Z4" />
         <script
           dangerouslySetInnerHTML={{
