@@ -25,7 +25,7 @@ export const Home: NextPage<HomeProps> = ({ data }) => {
         />
 
         <meta property="og:title" content="0xMallam" />
-        <meta property="og:image" content="https://0xmallam.info/api/screenshot" />
+        <meta property="og:image" content="https://farm6.staticflickr.com/5510/14338202952_93595258ff_z.jpg" />
         <meta
           property="og:description"
           content="How much are foreign currencies in ₦?"
