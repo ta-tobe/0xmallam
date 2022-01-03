@@ -23,7 +23,7 @@ export async function getEurData(): Promise<IssuanceData> {
   
   const data = await req2.json();
   
-  const tradingFee = 0.99 * 0.99;
+//   const tradingFee = 0.99 * 0.99;
   
   return {
     id: 'eur',
