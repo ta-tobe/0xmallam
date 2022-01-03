@@ -7,8 +7,6 @@ export async function getCadData(): Promise<IssuanceData> {
   return Math.round(number * factorOfTen) / factorOfTen
   };
   
-const tradingFee = 0.99 * 0.99;
-  
 //   const req = await fetch("https://api.binance.com/api/v3/ticker/price?symbol=EURUSDT", {
 //     "headers": {
 //       "content-type": "application/json",
@@ -24,6 +22,8 @@ const tradingFee = 0.99 * 0.99;
   });
   
   const data = await req2.json();
+  
+  const tradingFee = 0.99 * 0.99;
   
   return {
     id: 'cad',
