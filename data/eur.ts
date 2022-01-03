@@ -29,6 +29,6 @@ export async function getEurData(): Promise<IssuanceData> {
     id: 'eur',
     name: 'Euros (EUR)',
     category: 'stable',
-    rate: round(price * data.price * tradingFee,0),
+    rate: round(price * data.price, 0),
   };
 }
