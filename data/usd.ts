@@ -15,12 +15,12 @@ export async function getUsdData(): Promise<IssuanceData> {
   
   const { price } = await req.json();
   
-  const tradingFee = 0.99;
+//   const tradingFee = 0.99;
 
   return {
     id: 'usd',
     name: 'United States Dollars (USD)',
     category: 'stable',
-    rate: round(price * tradingFee,0),
+    rate: round(price,0),
   };
 }
