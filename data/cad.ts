@@ -23,13 +23,13 @@ export async function getCadData(): Promise<IssuanceData> {
   
   const data = await req2.json();
   
-  const tradingFee = 0.99 * 0.99;
+//   const tradingFee = 0.99 * 0.99;
   
   return {
     id: 'cad',
     name: 'Canadian Dollars (CAD)',
     category: 'stable',
-    rate: round(0.79 * data.price * tradingFee,0),
+    rate: round(0.79 * data.price,0),
 
   };
 }
