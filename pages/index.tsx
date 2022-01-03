@@ -4,6 +4,8 @@ import { NextPage, GetStaticProps } from 'next'
 import { getUsdData } from 'data/usd'
 import { getGbpData } from 'data/gbp'
 import { getEurData } from 'data/eur'
+import { getCadData } from 'data/cad'
+
 
 import { IssuanceData } from 'data/types'
 import List from 'components/List'
@@ -166,6 +168,7 @@ export const getStaticProps: GetStaticProps = async () => {
     getUsdData().catch(handleFailure),
     getGbpData().catch(handleFailure),
     getEurData().catch(handleFailure),
+    getCadData().catch(handleFailure),
   ]);
 
   const data = data2.filter((val: any) => !!val);
