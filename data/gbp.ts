@@ -23,12 +23,12 @@ export async function getGbpData(): Promise<IssuanceData> {
   
   const data = await req2.json();
   
-  const tradingFee = 0.99 * 0.99;
+//   const tradingFee = 0.99 * 0.99;
   
   return {
     id: 'gbp',
     name: 'Great Britain Pounds (GBP)',
     category: 'stable',
-    rate: round(price * data.price * tradingFee,0),
+    rate: round(price * data.price, 0),
   };
 }
