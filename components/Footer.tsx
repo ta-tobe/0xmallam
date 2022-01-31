@@ -4,24 +4,12 @@ const Footer: React.FC = () => {
   return (
     <footer>
       <div>Data updates in real time based on cryptocurrency prices in major exchanges</div>
-<!--       <div>
-        Created by{' '}
-        <a href="https://twitter.com/dmihal" target="twitter">
-          David Mihal
-        </a>
-      </div> -->
 
-<!--       <div>
-        <b>open-orgs.info</b>
+      <div>
+        <a href="https://www.0xmallam.info">Home</a>
         {' | '}
-        <a href="https://cryptofees.info">cryptofees.info</a>
-        {' | '}
-        <a href="https://ethburned.info">ethburned.info</a>
-        {' | '}
-        <a href="https://money-movers.info">money-movers.info</a>
-        {' | '}
-        <a href="https://l2fees.info">l2fees.info</a>
-      </div> -->
+        <a href="https://fxrates.0xmallam.info">fxrates</a>
+      </div>
 
       <style jsx>{`
         footer {
