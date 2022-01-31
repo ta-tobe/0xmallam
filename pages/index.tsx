@@ -71,7 +71,7 @@ gtag('js', new Date());gtag('config', 'G-N4QYE453Z4');`
       </main>
 
       <footer>
-     
+      <Footer />
       </footer>
 
       <style jsx>{`
