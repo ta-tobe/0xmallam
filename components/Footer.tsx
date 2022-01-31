@@ -3,15 +3,15 @@ import React from 'react';
 const Footer: React.FC = () => {
   return (
     <footer>
-      <div>Data updates continuously</div>
-      <div>
+      <div>Data updates continuously based on cryptocurrency prices in major exchanges</div>
+<!--       <div>
         Created by{' '}
         <a href="https://twitter.com/dmihal" target="twitter">
           David Mihal
         </a>
-      </div>
+      </div> -->
 
-      <div>
+<!--       <div>
         <b>open-orgs.info</b>
         {' | '}
         <a href="https://cryptofees.info">cryptofees.info</a>
@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
         <a href="https://money-movers.info">money-movers.info</a>
         {' | '}
         <a href="https://l2fees.info">l2fees.info</a>
-      </div>
+      </div> -->
 
       <style jsx>{`
         footer {
