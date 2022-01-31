@@ -9,6 +9,7 @@ import { getCadData } from 'data/cad'
 
 import { IssuanceData } from 'data/types'
 import List from 'components/List'
+import Footer from 'components/Footer'
 
 
 interface HomeProps {
