@@ -70,9 +70,7 @@ gtag('js', new Date());gtag('config', 'G-N4QYE453Z4');`
         <List data={data} />
       </main>
 
-      <footer>
       <Footer />
-      </footer>
 
       <style jsx>{`
         .container {
