@@ -5,12 +5,6 @@ const Footer: React.FC = () => {
     <footer>
       <div>Data updates in real time based on cryptocurrency prices in major exchanges</div>
 
-      <div>
-        <a href="https://www.0xmallam.info">home</a>
-<!--         {' | '}
-        <a href="https://fxrates.0xmallam.info">fxrates</a> -->
-      </div>
-
       <style jsx>{`
         footer {
           width: 100%;
