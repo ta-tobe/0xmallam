@@ -7,8 +7,8 @@ const Footer: React.FC = () => {
 
       <div>
         <a href="https://www.0xmallam.info">home</a>
-        {' | '}
-        <a href="https://fxrates.0xmallam.info">fxrates</a>
+<!--         {' | '}
+        <a href="https://fxrates.0xmallam.info">fxrates</a> -->
       </div>
 
       <style jsx>{`
