@@ -33,3 +33,5 @@ export async function getCadData(): Promise<IssuanceData> {
 
   };
 }
+
+// https://api.coingecko.com/api/v3/simple/price?ids=cad-coin&vs_currencies=usd
