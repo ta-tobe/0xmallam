@@ -13,7 +13,7 @@ export async function getCadData(): Promise<IssuanceData> {
     },
   });
   
-  const {cad_coin} = await req.json();
+  const {1} = await req.json();
 
   const req2 = await fetch("https://api.binance.com/api/v3/ticker/price?symbol=USDTNGN", {
     "headers": {
@@ -29,7 +29,7 @@ export async function getCadData(): Promise<IssuanceData> {
     id: 'cad',
     name: 'Canadian Dollars (CAD)',
     category: 'stable',
-    rate: round(cad_coin.usd * data.price,0),
+    rate: round(1.usd * data.price,0),
 
   };
 }
