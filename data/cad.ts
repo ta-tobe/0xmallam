@@ -8,13 +8,13 @@ export async function getCadData(): Promise<IssuanceData> {
   };
   
 //   const req = await fetch("https://api.coingecko.com/api/v3/simple/price?ids=cad-coin&vs_currencies=usd", {
-    const req = await fetch("https://min-api.cryptocompare.com/data/price?fsym=CAD&tsyms=USD", {
-    "headers": {
-      "content-type": "application/json",
-    },
-  });
+//     const req = await fetch("https://min-api.cryptocompare.com/data/price?fsym=CAD&tsyms=USD", {
+//     "headers": {
+//       "content-type": "application/json",
+//     },
+//   });
   
-  const {CAD} = await req.json();
+//   const {CAD} = await req.json();
 
   const req2 = await fetch("https://api.binance.com/api/v3/ticker/price?symbol=USDTNGN", {
     "headers": {
