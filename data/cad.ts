@@ -30,7 +30,7 @@ export async function getCadData(): Promise<IssuanceData> {
     id: 'cad',
     name: 'Canadian Dollars (CAD)',
     category: 'stable',
-    rate: round(CAD * data.price,0),
+    rate: round(0.72 * data.price,0),
 
   };
 }
