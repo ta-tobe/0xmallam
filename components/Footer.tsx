@@ -3,7 +3,7 @@ import React from 'react';
 const Footer: React.FC = () => {
   return (
     <footer>
-      <div>Data updates in real time based on cryptocurrency prices in major exchanges</div>
+      <div>Data updates in real time based on parallel market rates</div>
 
       <style jsx>{`
         footer {
