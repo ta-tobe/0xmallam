@@ -67,7 +67,7 @@ gtag('js', new Date());gtag('config', 'G-N4QYE453Z4');`
         </div>
         
 
-<!--         <List data={data} /> -->
+        <List data={data} />
       </main>
 
       <Footer />
