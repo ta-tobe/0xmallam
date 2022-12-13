@@ -1,14 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import { NextPage, GetStaticProps } from 'next'
-import { getUsdData } from 'data/usd'
-import { getGbpData } from 'data/gbp'
-import { getEurData } from 'data/eur'
-import { getCadData } from 'data/cad'
 
-
-import { IssuanceData } from 'data/types'
-import List from 'components/List'
 import Footer from 'components/Footer'
 
 
