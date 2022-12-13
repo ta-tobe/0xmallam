@@ -44,7 +44,7 @@ gtag('js', new Date());gtag('config', 'G-N4QYE453Z4');`
       </Head>
 
       <main>
-        <h1 className="title">0xMallam</h1>
+<!--         <h1 className="title">0xMallam</h1>
 
         <p className="description">
           How much are foreign currencies in Naira?
@@ -67,7 +67,7 @@ gtag('js', new Date());gtag('config', 'G-N4QYE453Z4');`
         </div>
         
 
-        <List data={data} />
+        <List data={data} /> -->
       </main>
 
       <Footer />
