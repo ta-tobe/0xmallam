@@ -15,7 +15,8 @@
     "next-images": "^1.7.0",
     "webpack": "^4.0.0",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "browserslist": "default"
   },
   "devDependencies": {
     "@types/node": "^12.12.21",
