@@ -8,6 +8,7 @@ import { getCadData } from 'data/cad'
 
 
 import { IssuanceData } from 'data/types'
+import List from 'components/List'     
 
 import Footer from 'components/Footer'
 
@@ -66,6 +67,7 @@ gtag('js', new Date());gtag('config', 'G-N4QYE453Z4');`
           <script async src="https://platform.twitter.com/widgets.js"></script>
         </div>
 
+                <List data={data} />
       </main>
 
       <Footer />
