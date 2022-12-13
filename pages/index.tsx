@@ -1,6 +1,13 @@
 import React from 'react'
 import Head from 'next/head'
 import { NextPage, GetStaticProps } from 'next'
+import { getUsdData } from 'data/usd'
+import { getGbpData } from 'data/gbp'
+import { getEurData } from 'data/eur'
+import { getCadData } from 'data/cad'
+
+
+import { IssuanceData } from 'data/types'
 
 import Footer from 'components/Footer'
 
@@ -37,6 +44,27 @@ gtag('js', new Date());gtag('config', 'G-N4QYE453Z4');`
       </Head>
 
       <main>
+   <h1 className="title">0xMallam</h1>
+
+        <p className="description">
+          How much are foreign currencies in Naira?
+        </p>
+        
+        <p>
+          Like this site?{' '}
+          <a href="https://gitcoin.co/grants/1624/cryptofees-info">Support it on Gitcoin Grants</a>
+        </p>
+
+        <div>
+          <a
+            href="https://twitter.com/share?ref_src=twsrc%5Etfw"
+            className="twitter-share-button"
+            data-show-count="true"
+          >
+            Tweet
+          </a>
+          <script async src="https://platform.twitter.com/widgets.js"></script>
+        </div>
 
       </main>
 
